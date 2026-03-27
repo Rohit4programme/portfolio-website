@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohit Sarkar - Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #fff;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #aa42ff;
+            padding-bottom: 20px;
+        }
+        .name {
+            font-size: 32px;
+            font-weight: bold;
+            color: #000;
+            margin-bottom: 5px;
+        }
+        .title {
+            font-size: 18px;
+            color: #aa42ff;
+            font-weight: 600;
+        }
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            font-size: 14px;
+            margin-top: 10px;
+            flex-wrap: wrap;
+        }
+        .contact-info a {
+            color: #aa42ff;
+            text-decoration: none;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section-title {
+            font-size: 16px;
+            font-weight: bold;
+            color: #aa42ff;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 8px;
+        }
+        .entry {
+            margin-bottom: 15px;
+        }
+        .entry-title {
+            font-size: 14px;
+            font-weight: bold;
+            color: #000;
+        }
+        .entry-subtitle {
+            font-size: 12px;
+            color: #666;
+            font-style: italic;
+        }
+        .entry-date {
+            font-size: 12px;
+            color: #999;
+        }
+        .entry-description {
+            font-size: 13px;
+            margin-top: 5px;
+            color: #444;
+            line-height: 1.5;
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            font-size: 13px;
+        }
+        .skill-category h4 {
+            color: #aa42ff;
+            font-size: 12px;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+        .skill-category ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        .skill-category li {
+            padding: 4px 0;
+            color: #444;
+        }
+        @media print {
+            body {
+                padding: 0;
+            }
+            .container {
+                padding: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="name">ROHIT SARKAR</div>
+            <div class="title">Fullstack Developer | Creative Software Developer</div>
+            <div class="contact-info">
+                <span>📧 kratos4all@gmail.com</span>
+                <span>📱 +91 74780 85909</span>
+                <span>📍 Kolkata, West Bengal, India</span>
+                <a href="https://github.com/Rohit4programme">GitHub</a>
+                <a href="https://www.linkedin.com/in/rohit-sarkar-051b95341">LinkedIn</a>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Professional Summary</div>
+            <div class="entry-description">
+                A passionate fullstack developer with expertise in creating interactive web experiences and Android applications. Currently pursuing Bachelor's in Computer Applications while building real-world solutions. Specialized in blending code with 3D design to craft unique digital products. Problem-solver with strong analytical skills and a passion for clean code.
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Current Role & Experience</div>
+            <div class="entry">
+                <div class="entry-title">Android App Development</div>
+                <div class="entry-subtitle">Self Employed | Barasat</div>
+                <div class="entry-date">May 2025 - Present</div>
+                <div class="entry-description">
+                    Building custom Android applications with modern architectures and clean code principles. Currently developing projects using Java, exploring mobile UI/UX design patterns, and learning advanced Android frameworks while managing freelance client projects.
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Education</div>
+            <div class="entry">
+                <div class="entry-title">Bachelor of Computer Applications</div>
+                <div class="entry-subtitle">Brainware University | Computational Sciences</div>
+                <div class="entry-date">March 2025 - Present</div>
+                <div class="entry-description">
+                    Pursuing advanced degree in Computer Applications with focus on computational sciences and advanced programming techniques.
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Featured Projects</div>
+            <div class="entry">
+                <div class="entry-title">Image OCR</div>
+                <div class="entry-subtitle">Java GUI Application</div>
+                <div class="entry-description">
+                    Desktop application for optical character recognition that extracts text from images with a modern Java GUI interface. Built with Java, Swing/JavaFX, Tesseract, and Image Processing techniques.
+                </div>
+            </div>
+            <div class="entry">
+                <div class="entry-title">Attendance Manager</div>
+                <div class="entry-subtitle">Desktop Application</div>
+                <div class="entry-description">
+                    Comprehensive attendance & proxy management system with role-based access control (Admin, Teacher, Student), secure authentication, reporting, and notifications. Implemented with Java, JavaFX, SQLite, MySQL, and BCrypt.
+                </div>
+            </div>
+            <div class="entry">
+                <div class="entry-title">Cursor Free VIP</div>
+                <div class="entry-subtitle">Utility Browser Extension</div>
+                <div class="entry-description">
+                    JavaScript-based browser extension tool developed for utility purposes.
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Technical Skills</div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h4>DEVELOPMENT</h4>
+                    <ul>
+                        <li>• Java, JavaScript, TypeScript</li>
+                        <li>• React, Vue.js</li>
+                        <li>• Android Development</li>
+                        <li>• HTML5, CSS3</li>
+                        <li>• Node.js, Express</li>
+                        <li>• RESTful APIs</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h4>PROFESSIONAL</h4>
+                    <ul>
+                        <li>• Project Management</li>
+                        <li>• Problem Solving</li>
+                        <li>• Code Quality</li>
+                        <li>• Debugging</li>
+                        <li>• Version Control (Git)</li>
+                        <li>• Agile Methodology</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h4>DESIGN</h4>
+                    <ul>
+                        <li>• UI/UX Design</li>
+                        <li>• 3D Graphics</li>
+                        <li>• Adobe Suite</li>
+                        <li>• Figma</li>
+                        <li>• Animation</li>
+                        <li>• Web Design</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Additional Information</div>
+            <div class="entry-description">
+                <strong>Date of Birth:</strong> 30/12/2006<br>
+                <strong>Nationality:</strong> Indian<br>
+                <strong>Languages:</strong> English, Hindi<br>
+                <strong>Interests:</strong> Video Games, Photo Editing, Stand-up Comedy, Open Source Contribution
+            </div>
+        </div>
+    </div>
+</body>
+</html>

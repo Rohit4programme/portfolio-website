@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">WheelMate - Accessibility Application</title>
+  <desc id="desc">Inclusive mobility platform for specially abled humans with adaptive UI and voice control</desc>
+  <defs>
+    <linearGradient id="bg-wheel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1b4965" />
+      <stop offset="100%" stop-color="#2a6f97" />
+    </linearGradient>
+    <linearGradient id="accent-wheel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#48a9a6" />
+      <stop offset="100%" stop-color="#56c596" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="700" fill="url(#bg-wheel)" />
+  
+  <!-- Main Container -->
+  <rect x="80" y="50" width="1040" height="600" rx="20" fill="#e8f4f8" stroke="#48a9a6" stroke-width="3" />
+  
+  <!-- Header -->
+  <rect x="80" y="50" width="1040" height="80" rx="20" fill="url(#accent-wheel)" />
+  <text x="120" y="120" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="36" font-weight="700">WHEELMATE</text>
+  <text x="500" y="120" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="18">Your Accessible Mobility Companion</text>
+  
+  <!-- Left Panel - Navigation Features -->
+  <rect x="110" y="160" width="300" height="450" rx="14" fill="#ffffff" stroke="#48a9a6" stroke-width="2" />
+  
+  <!-- Navigation Title -->
+  <text x="130" y="190" fill="#1b4965" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">QUICK ACCESS</text>
+  
+  <!-- Navigation Items -->
+  <rect x="130" y="210" width="260" height="50" rx="8" fill="#e8f4f8" />
+  <circle cx="160" cy="235" r="12" fill="#48a9a6" />
+  <text x="185" y="242" fill="#1b4965" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600">🎙️ Voice Control</text>
+  
+  <rect x="130" y="275" width="260" height="50" rx="8" fill="#e8f4f8" />
+  <circle cx="160" cy="300" r="12" fill="#56c596" />
+  <text x="185" y="307" fill="#1b4965" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600">📍 Accessible Routes</text>
+  
+  <rect x="130" y="340" width="260" height="50" rx="8" fill="#e8f4f8" />
+  <circle cx="160" cy="365" r="12" fill="#48a9a6" />
+  <text x="185" y="372" fill="#1b4965" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600">🏥 Nearby Facilities</text>
+  
+  <rect x="130" y="405" width="260" height="50" rx="8" fill="#e8f4f8" />
+  <circle cx="160" cy="430" r="12" fill="#56c596" />
+  <text x="185" y="437" fill="#1b4965" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600">👥 Community</text>
+  
+  <!-- Main Content - Dashboard -->
+  <rect x="430" y="160" width="650" height="450" rx="14" fill="#ffffff" stroke="#48a9a6" stroke-width="2" />
+  
+  <!-- Map/Dashboard Area -->
+  <rect x="450" y="190" width="610" height="200" rx="10" fill="#f0f8fa" stroke="#48a9a6" stroke-width="1" />
+  <text x="755" y="300" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="16" text-anchor="middle">Interactive Accessibility Map</text>
+  
+  <!-- Map elements -->
+  <circle cx="500" cy="230" r="8" fill="#2ecc71" />
+  <text x="520" y="235" fill="#1b4965" font-family="Segoe UI, Arial, sans-serif" font-size="11">Current Location</text>
+  
+  <circle cx="900" cy="260" r="8" fill="#3498db" />
+  <text x="920" y="265" fill="#1b4965" font-family="Segoe UI, Arial, sans-serif" font-size="11">Accessible Entrance</text>
+  
+  <path d="M 520 230 L 900 260" stroke="#48a9a6" stroke-width="2" stroke-dasharray="5,5" />
+  
+  <!-- Quick Stats Section -->
+  <text x="470" y="420" fill="#1b4965" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600">ACCESSIBILITY FEATURES</text>
+  
+  <rect x="450" y="435" width="140" height="70" rx="8" fill="#f0f8fa" stroke="#48a9a6" stroke-width="1" />
+  <text x="520" y="455" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="11" text-anchor="middle">Voice Commands</text>
+  <text x="520" y="490" fill="#48a9a6" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle">✓</text>
+  
+  <rect x="610" y="435" width="140" height="70" rx="8" fill="#f0f8fa" stroke="#48a9a6" stroke-width="1" />
+  <text x="680" y="455" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="11" text-anchor="middle">Large Text</text>
+  <text x="680" y="490" fill="#48a9a6" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle">✓</text>
+  
+  <rect x="770" y="435" width="140" height="70" rx="8" fill="#f0f8fa" stroke="#48a9a6" stroke-width="1" />
+  <text x="840" y="455" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="11" text-anchor="middle">One-Handed Mode</text>
+  <text x="840" y="490" fill="#48a9a6" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle">✓</text>
+  
+  <!-- Footer -->
+  <text x="80" y="680" fill="#1b4965" font-family="Segoe UI, Arial, sans-serif" font-size="13">🌍 Inclusive Design • ♿ Wheelchair Navigation • 🔊 Audio Feedback • 🎯 AI-Powered Recommendations</text>
+  <text x="850" y="680" fill="#1b4965" font-family="Segoe UI, Arial, sans-serif" font-size="13">Java • React Native • Accessibility APIs</text>
+</svg>

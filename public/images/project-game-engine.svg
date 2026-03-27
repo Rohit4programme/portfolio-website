@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">2D Game Engine - Java Framework</title>
+  <desc id="desc">Custom 2D game engine with physics, rendering, and event system</desc>
+  <defs>
+    <linearGradient id="bg-game" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0e27" />
+      <stop offset="100%" stop-color="#1a1a3a" />
+    </linearGradient>
+    <linearGradient id="accent-game" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00d9ff" />
+      <stop offset="100%" stop-color="#0099cc" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="700" fill="url(#bg-game)" />
+  
+  <!-- Main Container -->
+  <rect x="80" y="60" width="1040" height="580" rx="18" fill="#0f1530" stroke="#00d9ff" stroke-width="3" />
+  
+  <!-- Header -->
+  <rect x="80" y="60" width="1040" height="65" rx="18" fill="url(#accent-game)" />
+  <text x="120" y="112" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="700">2D GAME ENGINE</text>
+  
+  <!-- Game Canvas Area -->
+  <rect x="110" y="150" width="620" height="450" rx="12" fill="#0a0e27" stroke="#00d9ff" stroke-width="2" />
+  <text x="420" y="200" fill="#00d9ff" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600" text-anchor="middle">Game Viewport</text>
+  
+  <!-- Sample Game Elements -->
+  <!-- Player sprite -->
+  <rect x="280" y="280" width="40" height="60" rx="4" fill="#ff6b35" />
+  <circle cx="300" cy="270" r="12" fill="#ffa500" />
+  
+  <!-- Enemy sprites -->
+  <polygon points="550,320 560,310 570,320 560,330" fill="#e91e63" />
+  <circle cx="550" cy="340" r="8" fill="#ff69b4" />
+  <polygon points="620,270 630,260 640,270 630,280" fill="#e91e63" />
+  <circle cx="620" cy="290" r="8" fill="#ff69b4" />
+  
+  <!-- Platform -->
+  <rect x="300" y="380" width="250" height="20" rx="4" fill="#4caf50" />
+  
+  <!-- Projectiles -->
+  <circle cx="420" cy="250" r="5" fill="#ffeb3b" />
+  <circle cx="440" cy="240" r="5" fill="#ffeb3b" />
+  
+  <!-- Collision visualization -->
+  <rect x="280" y="280" width="40" height="60" fill="none" stroke="#00ff00" stroke-width="2" stroke-dasharray="4,4" opacity="0.6" />
+  
+  <!-- Right Panel - Engine Features -->
+  <rect x="750" y="150" width="340" height="450" rx="12" fill="#161b38" stroke="#00d9ff" stroke-width="2" />
+  
+  <!-- Features Title -->
+  <text x="770" y="185" fill="#00d9ff" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">ENGINE MODULES</text>
+  
+  <!-- Feature Boxes -->
+  <rect x="770" y="210" width="300" height="45" rx="6" fill="#0a0e27" stroke="#00d9ff" stroke-width="1" />
+  <circle cx="790" cy="237" r="6" fill="#00ff00" />
+  <text x="810" y="242" fill="#c0d0e0" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600">Graphics Rendering</text>
+  
+  <rect x="770" y="270" width="300" height="45" rx="6" fill="#0a0e27" stroke="#00d9ff" stroke-width="1" />
+  <circle cx="790" cy="297" r="6" fill="#00ff00" />
+  <text x="810" y="302" fill="#c0d0e0" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600">Physics Simulation</text>
+  
+  <rect x="770" y="330" width="300" height="45" rx="6" fill="#0a0e27" stroke="#00d9ff" stroke-width="1" />
+  <circle cx="790" cy="357" r="6" fill="#00ff00" />
+  <text x="810" y="362" fill="#c0d0e0" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600">Collision Detection</text>
+  
+  <rect x="770" y="390" width="300" height="45" rx="6" fill="#0a0e27" stroke="#00d9ff" stroke-width="1" />
+  <circle cx="790" cy="417" r="6" fill="#00ff00" />
+  <text x="810" y="422" fill="#c0d0e0" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600">Event System</text>
+  
+  <!-- Statistics -->
+  <rect x="770" y="450" width="140" height="80" rx="8" fill="#0a0e27" stroke="#00d9ff" stroke-width="1" />
+  <text x="840" y="468" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="11" text-anchor="middle">FPS Target</text>
+  <text x="840" y="505" fill="#00d9ff" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">60</text>
+  
+  <rect x="930" y="450" width="140" height="80" rx="8" fill="#0a0e27" stroke="#00d9ff" stroke-width="1" />
+  <text x="1000" y="468" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="11" text-anchor="middle">Sprites</text>
+  <text x="1000" y="505" fill="#00d9ff" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">∞</text>
+  
+  <!-- Footer -->
+  <text x="80" y="670" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="13">✨ Custom Rendering Pipeline • Rigid Body Physics • Sprite Animation Framework</text>
+  <text x="900" y="670" fill="#8b949e" font-family="Segoe UI, Arial, sans-serif" font-size="13">Java • LWJGL • OpenGL</text>
+</svg>

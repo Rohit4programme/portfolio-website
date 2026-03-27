@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Attendance Manager Project Cover</title>
+  <desc id="desc">Calendar and attendance dashboard illustration</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#052e2b" />
+      <stop offset="100%" stop-color="#0f766e" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#bg)" />
+  <rect x="100" y="90" width="1000" height="520" rx="26" fill="#0b3d3a" stroke="#5eead4" stroke-width="4" />
+  <rect x="100" y="90" width="1000" height="90" rx="26" fill="#134e4a" />
+  <circle cx="170" cy="135" r="13" fill="#99f6e4" />
+  <circle cx="215" cy="135" r="13" fill="#5eead4" />
+  <circle cx="260" cy="135" r="13" fill="#2dd4bf" />
+  <g fill="#115e59">
+    <rect x="170" y="230" width="100" height="80" rx="12" />
+    <rect x="290" y="230" width="100" height="80" rx="12" />
+    <rect x="410" y="230" width="100" height="80" rx="12" />
+    <rect x="530" y="230" width="100" height="80" rx="12" />
+    <rect x="650" y="230" width="100" height="80" rx="12" />
+    <rect x="770" y="230" width="100" height="80" rx="12" />
+    <rect x="170" y="330" width="100" height="80" rx="12" />
+    <rect x="290" y="330" width="100" height="80" rx="12" />
+    <rect x="410" y="330" width="100" height="80" rx="12" />
+    <rect x="530" y="330" width="100" height="80" rx="12" />
+    <rect x="650" y="330" width="100" height="80" rx="12" />
+    <rect x="770" y="330" width="100" height="80" rx="12" />
+  </g>
+  <rect x="530" y="330" width="100" height="80" rx="12" fill="#14b8a6" />
+  <path d="M560 370l16 16 30-32" fill="none" stroke="#ecfeff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+  <rect x="900" y="230" width="140" height="180" rx="16" fill="#134e4a" />
+  <rect x="928" y="270" width="84" height="14" rx="6" fill="#99f6e4" />
+  <rect x="928" y="305" width="84" height="14" rx="6" fill="#5eead4" />
+  <rect x="928" y="340" width="84" height="14" rx="6" fill="#2dd4bf" />
+  <text x="120" y="655" fill="#ecfeff" font-family="Segoe UI, Arial, sans-serif" font-size="46" font-weight="700">ATTENDANCE MANAGER</text>
+  <text x="810" y="635" fill="#99f6e4" font-family="Segoe UI, Arial, sans-serif" font-size="24">React · Node.js · Database</text>
+</svg>

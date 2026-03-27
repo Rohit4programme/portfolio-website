@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Cursor Free VIP Project Cover</title>
+  <desc id="desc">Stylized browser utility and cursor automation artwork</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2a0a3a" />
+      <stop offset="100%" stop-color="#581c87" />
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7e22ce" />
+      <stop offset="100%" stop-color="#4c1d95" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#bg)" />
+  <rect x="120" y="100" width="960" height="500" rx="28" fill="#1f1230" stroke="#c084fc" stroke-width="4" />
+  <rect x="120" y="100" width="960" height="86" rx="28" fill="#2e1a47" />
+  <circle cx="185" cy="143" r="12" fill="#f0abfc" />
+  <circle cx="225" cy="143" r="12" fill="#d8b4fe" />
+  <circle cx="265" cy="143" r="12" fill="#c4b5fd" />
+  <rect x="200" y="240" width="420" height="290" rx="20" fill="url(#card)" stroke="#e9d5ff" stroke-width="3" />
+  <path d="M305 285l120 120-65 20 25 70-30 12-26-72-62 54z" fill="#faf5ff" />
+  <rect x="690" y="240" width="300" height="60" rx="14" fill="#4c1d95" />
+  <rect x="690" y="325" width="300" height="60" rx="14" fill="#4c1d95" />
+  <rect x="690" y="410" width="300" height="60" rx="14" fill="#4c1d95" />
+  <circle cx="725" cy="270" r="10" fill="#f0abfc" />
+  <circle cx="725" cy="355" r="10" fill="#d8b4fe" />
+  <circle cx="725" cy="440" r="10" fill="#c4b5fd" />
+  <text x="120" y="655" fill="#faf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="44" font-weight="700">CURSOR FREE VIP</text>
+  <text x="880" y="635" fill="#e9d5ff" font-family="Segoe UI, Arial, sans-serif" font-size="24">JavaScript · Extension</text>
+</svg>
